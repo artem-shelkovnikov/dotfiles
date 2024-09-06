@@ -9,8 +9,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline-themes' |
   Plug 'dense-analysis/ale' |
   Plug 'tmhedberg/SimpylFold' |
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } |
+  Plug 'junegunn/fzf.vim' |
+  Plug 'fatih/vim-go'
 call plug#end()
 
 " Vim Airline
